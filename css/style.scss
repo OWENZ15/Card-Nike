@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #161623;
+    //para que su altura cabe en toda la pantalla
+    min-height: 100vh;
+    //si en caso hay un desbordamiento o algo sobre sale de la pantalla se oculta
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /*es recomendarle que nuestro container inicial sea relative para que los demas
+      container hijos puedan moverse libremente y usando no solo relative sino
+      tambien absolute*/
+    position: relative;
+
+    .card{
+        
+    }
+}
