@@ -31,11 +31,30 @@ body{
         overflow: hidden;
 
         .imgBx{
-            background: red;
+            //sirve para que este adelante de todo las demas etiquetas y no atras
+            z-index: 1000;
             position: absolute;
             top: 50%;
             width: 100%;
             height: 220px;
+
+            img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 300px;
+                
+                transform: translate(-50%, -50%) rotate(-10deg);
+            }
+        }
+
+        .contentBx{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: red;
+            height: 100px;
+            text-align: center;
         }
     }
 }
