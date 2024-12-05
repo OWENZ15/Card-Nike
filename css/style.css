@@ -19,4 +19,10 @@ body {
     container hijos puedan moverse libremente y usando no solo relative sino
     tambien absolute*/
   position: relative;
+}
+.container .card {
+  background: #232323;
+  width: 320px;
+  height: 450px;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
