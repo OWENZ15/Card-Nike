@@ -25,4 +25,13 @@ body {
   width: 320px;
   height: 450px;
   position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.container .card .imgBx {
+  background: red;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 220px;
 }/*# sourceMappingURL=style.css.map */
