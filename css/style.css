@@ -71,4 +71,17 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-right: 20px;
+}
+.container .card .contentBx .size span {
+  width: 20px;
+  height: 26px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 5px;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */

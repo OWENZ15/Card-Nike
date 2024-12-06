@@ -92,6 +92,22 @@ body{
                 margin-right: 20px;
                }
             }
+
+            .size span{
+                width: 20px;
+                height: 26px;
+                text-align: center;
+                //hace que las letras se bajen mas para abajo
+                line-height: 24px;
+                font-size: 14px;
+                display: inline-block;
+                color: #111;
+                background: #fff;
+                border-radius: 4px;
+                margin: 0 5px;
+                transition: 0.5s;
+
+            }
         }
     }
 }
