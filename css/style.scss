@@ -78,7 +78,19 @@ body{
             //tiempo de aparecer en pantalla
             transition: 0.5s;
 
-    
+               h3,h3{
+                color: #fff;
+                //alargar la letra
+                font-weight: 300;
+                //agrandar letra
+                font-size: 14px;
+                //hacer que todas las letras sean Mayusculas
+                text-transform: uppercase;
+                //separar letra
+                letter-spacing: 2px;
+                //margen al derecho
+                margin-right: 20px;
+               }
             }
         }
     }

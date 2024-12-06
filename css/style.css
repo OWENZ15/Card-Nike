@@ -63,4 +63,12 @@ body {
   padding: 8px 20px;
   opacity: 1;
   transition: 0.5s;
+}
+.container .card .contentBx .size h3, .container .card .contentBx .size h3, .container .card .contentBx .color h3, .container .card .contentBx .color h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
