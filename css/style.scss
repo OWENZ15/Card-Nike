@@ -32,7 +32,7 @@ body{
 
         .imgBx{
             //sirve para que este adelante de todo las demas etiquetas y no atras
-            z-index: 1000;
+            z-index: -1;
             position: absolute;
             top: 50%;
             width: 100%;
@@ -56,6 +56,24 @@ body{
             height: 100px;
             text-align: center;
             transition: 1s;
+
+            h2{
+            //agrandar letra
+            font-weight: 600;
+            //separar letras
+            letter-spacing: 1px;
+            color: #fff;
+            }
+            //va modificar 2 class a la vez, es un 2x1 para hacer cambios
+            .size, .color{
+            //todos los textos estara colocados en filas
+            display: flex; 
+            //centrar textos
+            justify-content: center;
+            //centrar elementos
+            align-items: center;
+            
+            }
         }
     }
 }

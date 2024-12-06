@@ -29,7 +29,7 @@ body {
   overflow: hidden;
 }
 .container .card .imgBx {
-  z-index: 1000;
+  z-index: -1;
   position: absolute;
   top: 50%;
   width: 100%;
@@ -50,4 +50,14 @@ body {
   height: 100px;
   text-align: center;
   transition: 1s;
+}
+.container .card .contentBx h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.container .card .contentBx .size, .container .card .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
