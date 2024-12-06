@@ -52,7 +52,6 @@ body{
             position: absolute;
             bottom: 0;
             width: 100%;
-            background: red;
             height: 100px;
             text-align: center;
             transition: 1s;
@@ -106,7 +105,36 @@ body{
                 border-radius: 4px;
                 margin: 0 5px;
                 transition: 0.5s;
+                //es una funcion para hacer cambios con el mouse, agregando
+                //interaccion cuando el usuario use el mouse
+                cursor: pointer;
+                //funcion que permite cambiar de color al texto y al fondo
+                //cuando el mouse pase por esa etiqueta
+                &:hover{
+                    color:#111;
+                    background: #dc7928;
+                }
 
+            }
+
+            .color span{
+                width: 20px;
+                height: 20px;
+                background: #f00;
+                border-radius: 50%;
+                margin: 0 5px;
+                //habilitar funcion del mouse
+                cursor: pointer;
+                //hacer cambios especificos a los hijos del color en orden
+                &:nth-child(2){
+                    background: blue;
+                }
+                &:nth-child(3){
+                    background: silver;
+                }
+                &:nth-child(4){
+                    background: gold;
+                }
             }
         }
     }
