@@ -72,7 +72,13 @@ body{
             justify-content: center;
             //centrar elementos
             align-items: center;
-            
+            padding: 8px 20px;
+            //transparencia del texto
+            opacity:1 ;
+            //tiempo de aparecer en pantalla
+            transition: 0.5s;
+
+    
             }
         }
     }

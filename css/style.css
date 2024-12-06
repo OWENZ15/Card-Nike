@@ -60,4 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 8px 20px;
+  opacity: 1;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
