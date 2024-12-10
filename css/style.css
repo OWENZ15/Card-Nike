@@ -29,7 +29,7 @@ body {
   overflow: hidden;
 }
 .container .card::before {
-  content: "hola";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -66,6 +66,17 @@ body {
   -webkit-clip-path: circle(300px at 80% -20px);
           clip-path: circle(300px at 80% -20px);
 }
+.container .card:after {
+  content: "Nike";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  color: rgba(255, 255, 255, 0.02);
+  font-weight: 800;
+  font-style: italic;
+  z-index: 1;
+}
 .container .card .imgBx {
   z-index: 1000;
   position: absolute;
@@ -87,6 +98,7 @@ body {
   height: 100px;
   text-align: center;
   transition: 1s;
+  z-index: 10;
 }
 .container .card .contentBx h2 {
   font-weight: 600;
