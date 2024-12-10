@@ -39,7 +39,11 @@ body{
             height: 100%;
             background: #B6FCFD;
             clip-path: circle(150px at 80% 20%);
+            transition: 0.5s ease-in-out;
         }
+
+
+
         &:hover{
             .imgBx{
                 top: 0;
@@ -66,6 +70,10 @@ body{
                     transition-delay: 0.75s; 
                 }
             }
+        }
+
+        &:hover::before{
+            clip-path: circle(300px at 80% -20px);
         }
         .imgBx{
             //sirve para que este adelante de todo las demas etiquetas y no atras
