@@ -28,8 +28,20 @@ body {
   border-radius: 20px;
   overflow: hidden;
 }
+.container .card:hover .imgBx {
+  top: 0;
+  transform: translateY(0);
+}
+.container .card:hover .contentBx {
+  height: 210px;
+}
+.container .card:hover .contentBx .size {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
 .container .card .imgBx {
-  z-index: -1;
+  z-index: 1000;
   position: absolute;
   top: 50%;
   width: 100%;
@@ -105,4 +117,17 @@ body {
 }
 .container .card .contentBx .color span:nth-child(4) {
   background: gold;
+}
+.container .card .contentBx a {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #B6FCFD;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #131313;
+  transform: translateY(50px);
+  transition: 0.5s;
+  opacity: 0;
 }/*# sourceMappingURL=style.css.map */

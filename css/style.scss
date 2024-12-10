@@ -29,10 +29,24 @@ body{
         position: relative;
         border-radius: 20px;
         overflow: hidden;
+        &:hover{
+            .imgBx{
+                top: 0;
+                transform: translateY(0);
+            }
 
+            .contentBx{
+                height: 210px;
+                .size{
+                    opacity: 1;
+                    visibility: visible;
+                    transition-delay: 0.5s;
+                }
+            }
+        }
         .imgBx{
             //sirve para que este adelante de todo las demas etiquetas y no atras
-            z-index: -1;
+            z-index: 1000;
             position: absolute;
             top: 50%;
             width: 100%;
@@ -55,6 +69,7 @@ body{
             height: 100px;
             text-align: center;
             transition: 1s;
+
 
             h2{
             //agrandar letra
@@ -135,6 +150,20 @@ body{
                 &:nth-child(4){
                     background: gold;
                 }
+            }
+
+            a{
+                display: inline-block;
+                padding: 10px 30px;
+                background: #B6FCFD;
+                border-radius: 4px;
+                margin-top: 10px;
+                text-decoration: none;
+                font-weight: 600;
+                color: #131313;
+                transform: translateY(50px);
+                transition: 0.5s;
+                opacity: 0;
             }
         }
     }
